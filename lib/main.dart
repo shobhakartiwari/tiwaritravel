@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    _products.add('Laptop');
+    _products.add('CAR');
   }
 
   @override
@@ -34,7 +34,7 @@ class _MyAppState extends State<MyApp> {
                       textColor: Colors.white,
                       onPressed: () {
                         setState(() {
-                          _products.add('Laptop');
+                          _products.add('CAR');
                         });
                       },
                       child: Text('Add Vehicle'))),
