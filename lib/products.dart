@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Products extends StatelessWidget {
   final List<String> products;
   Products(this.products);
-
+  // ----test comment
   Widget _buildProductItem(BuildContext context, int index) {
     return Card(
       child: Column(
